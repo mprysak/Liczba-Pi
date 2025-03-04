@@ -59,13 +59,19 @@ a {
 
 /* Hamburger menu */
 .ham-menu {
-  display: none;
+  display: flex;
+  justify-content: flex-end;
+  margin-left: auto;
+  text-align: right;
   flex-direction: column;
-  cursor: pointer;
   position: absolute;
 }
 
 .ham-menu span {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: auto;
+  text-align: right;
   width: 25px;
   height: 3px;
   background-color: #fff;
@@ -97,7 +103,10 @@ a {
   }
 
   .ham-menu {
-    display: flex; /* Pokaż hamburger menu */
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+    text-align: right;
   }
 }
 
