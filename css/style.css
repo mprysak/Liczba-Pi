@@ -10,6 +10,22 @@ body {
   overflow-x: hidden;
 }
 
+@media only screen and (max-width: 1920px) {
+
+  .finisher-header{
+    width: 100vw;
+    height:100vh;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+
+  .finisher-header{
+    width: 100vw;
+    height: 10vh;
+  }
+}
+
 /* Pasek Nawigacyjny */
 header,
 nav {
@@ -38,7 +54,7 @@ a {
 /* Zwykłe menu */
 .nav-links {
   display: flex;
-  gap: 20px; /* Mniejszy odstęp między linkami */
+  gap: 20px;
 }
 
 /* Hamburger menu */
@@ -47,8 +63,6 @@ a {
   flex-direction: column;
   cursor: pointer;
   position: absolute;
-  right: 20px; /* Odsunięcie od prawej krawędzi */
-  top: 15px;
 }
 
 .ham-menu span {
