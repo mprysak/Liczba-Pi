@@ -14,7 +14,7 @@ body {
 
   .finisher-header{
     width: 100vw;
-    height:300vh;
+    height:200vh;
   }
 }
 
@@ -22,7 +22,7 @@ body {
 
   .finisher-header{
     width: 100vw;
-    height: 100vh;
+    height: 1000vh;
   }
 }
 
@@ -130,4 +130,10 @@ a {
     margin-left: 50px;
     font-size: 15px;
   }
+}
+
+
+h3{
+  text-align: center;
+  margin-top: 20px;
 }
