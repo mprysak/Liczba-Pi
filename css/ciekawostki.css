@@ -112,10 +112,16 @@ a {
 
 /* Reszta stylów */
 
+h1{
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
 @media only screen and (min-width: 1920px) {
   p {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 20px;
     margin-right: 300px;
     margin-left: 300px;
     font-size: 18px;
@@ -125,7 +131,7 @@ a {
 @media only screen and (max-width: 1920px) {
   p {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 20px;
     margin-right: 50px;
     margin-left: 50px;
     font-size: 15px;
@@ -136,4 +142,5 @@ a {
 h3{
   text-align: center;
   margin-top: 20px;
+  font-size: 21px;
 }
