@@ -51,7 +51,6 @@ a {
   text-decoration: none;
 }
 
-/* Zwykłe menu */
 .nav-links {
   display: flex;
   gap: 20px;

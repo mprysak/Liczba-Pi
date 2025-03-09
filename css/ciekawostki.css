@@ -21,7 +21,7 @@ body {
 
   .finisher-header{
     width: 100vw;
-    height: 200vh;
+    height: 400vh;
   }
 }
 
@@ -113,8 +113,9 @@ a {
 
 h1{
   text-align: center;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  font-size: 43px;
 }
 
 @media only screen and (min-width: 1920px) {
@@ -123,6 +124,7 @@ h1{
     margin-top: 20px;
     margin-right: 300px;
     margin-left: 300px;
+    margin-bottom: 40px;
     font-size: 18px;
   }
 }
@@ -133,6 +135,7 @@ h1{
     margin-top: 20px;
     margin-right: 50px;
     margin-left: 50px;
+    margin-bottom: 20px;
     font-size: 15px;
   }
 }
@@ -142,4 +145,36 @@ h3{
   text-align: center;
   margin-top: 20px;
   font-size: 21px;
+}
+
+
+@media only screen and (max-width: 1920px){
+  section{
+    height: 200px;
+    width: 400px;
+    background-color: #f0f0f0;
+    border-radius: 20px;
+    color: black;
+    margin-bottom: 50px;
+  }
+}
+
+@media only screen and (min-width: 1920px){
+  section{
+    width: 700px;
+    background-color: #f0f0f0;
+    border-radius: 20px;
+    color: black;
+    margin-bottom: 100px;
+  }
+}
+
+.center-container{ /* Tego nie tykać po spierdolisz */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
 }
