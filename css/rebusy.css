@@ -176,16 +176,16 @@ section {
 
 @media (max-width: 768px) {
   .images {
-      display: grid;
-      grid-template-columns: 1fr 1fr; /* 2 kolumny na małych ekranach */
-      gap: 20px; /* Odstęp 20px między obrazkami */
-      width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* 2 kolumny na małych ekranach */
+    gap: 20px; /* Odstęp 20px między obrazkami */
+    width: 100%;
   }
 
   .rebus img {
-      width: 40px; /* Mniejsze obrazki na telefonach (40px x 40px) */
-      height: 40px;
-      object-fit: cover;
+    width: 60px; /* Mniejsze obrazki na telefonach */
+    height: 60px;
+    object-fit: cover;
   }
 }
 
