@@ -150,6 +150,7 @@ h3{
 .linki-ciekawostki{
   text-decoration: none;
   color: rgb(19, 54, 252);
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 1920px){
@@ -178,7 +179,6 @@ h3{
 section:hover{
   background-color: #e5e5e5;
   box-shadow: 6px 6px 20px;
-  cursor: pointer;
 }
 
 .center-container{ /* Tego nie tykać po spierdolisz */
