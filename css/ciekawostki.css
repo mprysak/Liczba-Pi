@@ -156,6 +156,7 @@ h3{
     border-radius: 20px;
     color: black;
     margin-bottom: 50px;
+    transition: 1s;
   }
 }
 
@@ -166,7 +167,14 @@ h3{
     border-radius: 20px;
     color: black;
     margin-bottom: 100px;
+    transition: 1s;
   }
+}
+
+section:hover{
+  background-color: #e5e5e5;
+  box-shadow: 6px 6px 20px;
+  cursor: pointer;
 }
 
 .center-container{ /* Tego nie tykać po spierdolisz */
