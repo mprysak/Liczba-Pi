@@ -29,7 +29,7 @@ body {
 /* Pasek Nawigacyjny */
 header,
 nav {
-  margin-top: 15px;
+  padding: 15px;
   position: relative;
 }
 
